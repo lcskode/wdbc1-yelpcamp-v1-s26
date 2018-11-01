@@ -11,7 +11,7 @@ Each campground has:
 var express = require("express");
 var app = express();
 
-
+app.set("view engine", "ejs");
 
 // ============================================================================
 // ROUTES
@@ -19,7 +19,7 @@ var app = express();
 
 // root ROUTE
 app.get("/", function(req, res){
-  res.send("This will be the landing page...");
+  res.render("landing");
 });
 
 
