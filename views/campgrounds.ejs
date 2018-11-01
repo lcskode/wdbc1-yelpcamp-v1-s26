@@ -1,0 +1,13 @@
+<h1>Campgrounds</h1>
+
+<!-- test campgrounds data, should see [object Object]... -->
+<!-- <%= campgrounds %> -->
+
+<% campgrounds.forEach(function(campground){ %>
+  <div>
+    <h4><%= campground.name %></h4>
+    <img src="<%= campground.image %>" alt="Location of each campgrounds.">
+  </div>
+    
+  
+<% }); %>
