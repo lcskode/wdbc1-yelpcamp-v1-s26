@@ -21,3 +21,9 @@
 **Style the campgrounds page**  
 * Add a better header/title  
 * Make campgrounds display in a grid  
+
+#### S26-L250  
+**Style navbar and form**  
+* Add navbar to all templates  
+* Style the new campground form  
+
